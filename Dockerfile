@@ -10,8 +10,8 @@ ENV TZ=Asia/Kolkata
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # clone the repo and change workdir
-RUN git clone https://https://github.com/Love14314/Ultroid.git/TeamUltroid/
-WORKDIR /https://github.com/Love14314/Ultroid.git/
+RUN git clone https://https://github.com/Love14314/Ultroid.git /root/Love14314
+WORKDIR /root/Love14314
 
 # install main requirements.
 COPY requirements.txt /deploy/
