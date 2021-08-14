@@ -40,7 +40,7 @@ async def autopic(e):
     if ST:
         SLEEP_TIME = int(ST)
     else:
-        SLEEP_TIME = 1221
+        SLEEP_TIME = 10
     while True:
         for lie in clls:
             ge = udB.get("AUTOPIC")
